@@ -1,0 +1,1 @@
+A simple clone of the Google search results page.
