@@ -1,3 +1,19 @@
+h2{
+    color: rgb(3, 3, 192);
+    font-size: 20px;
+    font-weight: 200;
+}
+
+p{
+    color: rgb(104, 104, 104);
+    font-size: 14px;
+    font-weight: 100;
+}
+
+cite{
+    font-size: 14px;
+}
+
 #google-logo{
     margin: 15px 20px 15px 20px;
 }
@@ -5,15 +21,35 @@
 .search-bar{
     position: relative;
     bottom: 25px;
+    margin-bottom: 25px;
 }
 
+
 .nav-bar{
-    display: flex;
-    justify-content: space-around;
+    margin-left: 120px;
+    padding-bottom: 20px;
 }
 
 .nav-bar a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(64, 64, 64);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(104, 104, 104);
     text-decoration: none;
+    padding-right: 20px;
+}
+
+.results{
+    margin-left: 120px;
+    margin-right: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+}
+
+.results a{
+    color: black;
+    text-decoration: none;
+}
+
+.results h2:hover{
+    text-decoration: underline;
 }
